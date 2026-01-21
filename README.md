@@ -1,6 +1,6 @@
  # Contract Management Platform — Frontend
 
-## 🔍 Project Overview
+##  Project Overview
 
 This is the **frontend application** of a **Contract Management Platform** built with **React**, **TypeScript**, and **Tailwind CSS**.  
 It demonstrates product thinking, clean UI design, state management, and structured architecture — all built from scratch with no UI templates provided.
@@ -16,13 +16,13 @@ Users can:
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 https://contract-management-frontend-pi.vercel.app/
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **React** (component-based UI)
 - **TypeScript** (type safety)
@@ -32,7 +32,7 @@ https://contract-management-frontend-pi.vercel.app/
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 src/
 ├── components/     # Reusable components (Navbar, Buttons, etc.)
@@ -46,28 +46,28 @@ src/
 
 ---
 
-## 🧩 Features
+##  Features
 
-### 📌 Blueprint Creation
+###  Blueprint Creation
 - Create templates with configurable fields
 - Supported field types: Text, Date, Checkbox, Signature
 
-### 📌 Contract Creation
+###  Contract Creation
 - Select a blueprint to generate a contract
 - Fill in field values
 - New contracts appear in the Dashboard automatically
 
-### 📌 Dashboard
+###  Dashboard
 - Shows a list of all created contracts
 - Displays contract name, blueprint, status, and date
 - Empty state shows a message if no contracts exist
 
-### 📌 Navigation
+###  Navigation
 - Global Navbar with links to Home, Dashboard, Blueprints, Contracts
 
 ---
 
-## 📥 Setup Instructions
+##  Setup Instructions
 
 1. **Clone the repository**
    ```bash
@@ -85,7 +85,7 @@ http://localhost:5173
 
 ---
 
-✅ **Steps to finalize quickly:**
+ **Steps to finalize quickly:**
 
 1. Copy this entire content.  
 2. Open your local project → **edit `README.md`** → paste it.  
