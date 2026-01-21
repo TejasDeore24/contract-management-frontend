@@ -1,9 +1,9 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useAppContext } from "../context/AppContext";
 import { v4 as uuidv4 } from "uuid";
-import type { ContractField, ContractStatus } from "../types/contract";
+import type { ContractField } from "../types/contract";
 
-const lifecycleOrder: ContractStatus[] = ["Created", "Approved", "Sent", "Signed", "Locked"];
+//const lifecycleOrder: ContractStatus[] = ["Created", "Approved", "Sent", "Signed", "Locked"];
 
 export default function Contracts() {
   const { blueprints, addContract, contracts, updateContract } = useAppContext();
@@ -49,7 +49,7 @@ export default function Contracts() {
       blueprintId: selectedBlueprintId,
       fields,
       status: "Created",
-      createdAt: new Date(),
+      createdAt: new Date().toISOString(),
     });
 
     // Reset form

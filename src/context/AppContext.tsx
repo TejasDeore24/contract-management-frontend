@@ -28,14 +28,11 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
     return stored ? JSON.parse(stored) : [];
   });
 
-  // Load contracts from localStorage
-  const [contracts, setContracts] = useState<Contract[]>(() => {
-    const stored = localStorage.getItem(CONTRACTS_KEY);
-    return stored ? JSON.parse(stored).map(c => ({
-      ...c,
-      createdAt: new Date(c.createdAt), // Convert string to Date
-    })) : [];
-  });
+ // Load contracts from localStorage
+const [contracts, setContracts] = useState<Contract[]>(() => {
+  const stored = localStorage.getItem(CONTRACTS_KEY);
+  return stored ? JSON.parse(stored) : [];
+});
 
   // Persist blueprints
   useEffect(() => {
