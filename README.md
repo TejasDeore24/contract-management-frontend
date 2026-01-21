@@ -18,7 +18,7 @@ Users can:
 
 ## 🚀 Live Demo
 
-[Add your deployed site URL here]
+https://contract-management-frontend-pi.vercel.app/
 
 ---
 
